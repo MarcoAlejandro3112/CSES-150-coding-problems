@@ -6,7 +6,7 @@ int main()
     int n;
     cin >> n;
     while(n--){
-        int x,y;
+        long long x,y;
         cin >> x >> y;
         if(x == y){
             cout << (x*x)-(x-1);
